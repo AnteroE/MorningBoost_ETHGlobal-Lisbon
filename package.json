@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.1.4",
+    "chai": "^4.3.7",
+    "hardhat": "^2.14.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}

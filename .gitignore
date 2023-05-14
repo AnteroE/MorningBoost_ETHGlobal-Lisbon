@@ -1,0 +1,82 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+cloud_sql_proxy
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Bower dependency directory (https://bower.io/)
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+dist
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# TypeScript v1 declaration files
+typings/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+# *.tgz # helm dependencies often come as .tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+# next.js build output
+.next
+
+# misc
+.DS_Store
+service-account.json
+.env
+db.sqlite
+tmp-endpoints*
+imports
+.vscode/settings.json
+
+run/
+data
+sa.json
+.nvmrc
+
+# Hardhat files
+cache
+artifacts
+/coverage
+coverage.json
+.coverage_artifacts
+.coverage_cache
+.coverage_contracts
+
+addresses.json
+
+# be uses npm for now
+yarn.lock
